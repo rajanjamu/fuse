@@ -1,0 +1,29 @@
+#home {
+  .bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: -1;
+    background-image: url('bg.jpg');
+    width: 100vw;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  .site-branding {
+    text-align: center;
+    padding-top: 32vh;
+    color: white;
+
+    .site-title {
+      h1 {
+        font-size: 6em;
+        font-weight: 300;
+      }
+    }
+
+    .site-description {
+      font-weight: 300;
+    }
+  }
+}

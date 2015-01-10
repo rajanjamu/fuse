@@ -1,6 +1,6 @@
 Fuse
 ====
-Github for hardware enthusiasts.
+Github for electronic enthusiasts.
 
 
 Origin of idea
@@ -43,4 +43,4 @@ This project is in nascent stages. It would be great to get your feedback and bu
 
 Demo
 ----
-You can see the status of the project here in the [demo](http://fuse.rajanjamu.com/){:target="_blank"}.
+You can see the status of the project here in the [demo](http://fuse.rajanjamu.com/)
