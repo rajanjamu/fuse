@@ -21,6 +21,12 @@ group :development, :test do
   gem 'guard-livereload'
 end
 
+group :test do
+  gem 'minitest-reporters'
+  gem 'mini_backtrace'
+  gem 'guard-minitest'
+end
+
 group :production do
   gem 'pg'
   gem 'rails_12factor'
