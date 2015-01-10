@@ -5,7 +5,7 @@ Github for hardware enthusiasts.
 
 Origin of idea
 --------------
-Electronics enthusiasts, who are willing to contribute to open source community for various reasons, need a way to showcase their creations, explore the latest developments in this field and build a better future together.
+Electronics enthusiasts, who are willing to contribute to open source community for various reasons, need a way to showcase their creations, explore the latest developments in this field and build a fascinating future together.
 
 
 Goals
@@ -39,3 +39,8 @@ Ideation
 Get involved
 ------------
 This project is in nascent stages. It would be great to get your feedback and build this application together.
+
+
+Demo
+----
+You can see the status of the project here in the [demo](http://fuse.rajanjamu.com/).
