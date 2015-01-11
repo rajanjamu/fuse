@@ -52,10 +52,10 @@
         <text>56</text>
       </controlProperties>
     </control>
-    <control controlID="72" controlTypeID="com.balsamiq.mockups::Label" x="961" y="160" w="-1" h="-1" measuredW="164" measuredH="26" zOrder="11" locked="false" isInGroup="-1">
+    <control controlID="72" controlTypeID="com.balsamiq.mockups::Label" x="961" y="160" w="-1" h="-1" measuredW="108" measuredH="26" zOrder="11" locked="false" isInGroup="-1">
       <controlProperties>
         <size>18</size>
-        <text>Top%20Trending%20Works</text>
+        <text>Top%20Trending</text>
       </controlProperties>
     </control>
     <control controlID="73" controlTypeID="com.balsamiq.mockups::HRule" x="961" y="191" w="243" h="-1" measuredW="100" measuredH="10" zOrder="12" locked="false" isInGroup="-1"/>
@@ -155,7 +155,7 @@
         <text>Rajan</text>
       </controlProperties>
     </control>
-    <control controlID="95" controlTypeID="com.balsamiq.mockups::TextArea" x="478" y="242" w="409" h="446" measuredW="200" measuredH="140" zOrder="33" locked="false" isInGroup="-1">
+    <control controlID="95" controlTypeID="com.balsamiq.mockups::TextArea" x="478" y="242" w="409" h="378" measuredW="200" measuredH="140" zOrder="33" locked="false" isInGroup="-1">
       <controlProperties>
         <borderColor>16777215</borderColor>
         <color>16777215</color>
@@ -182,6 +182,17 @@
     <control controlID="101" controlTypeID="com.balsamiq.mockups::SubTitle" x="543" y="150" w="-1" h="-1" measuredW="188" measuredH="27" zOrder="37" locked="false" isInGroup="-1">
       <controlProperties>
         <text>%20/%20Audio%20Amplifier</text>
+      </controlProperties>
+    </control>
+    <control controlID="102" controlTypeID="com.balsamiq.mockups::SubTitle" x="479" y="645" w="-1" h="-1" measuredW="118" measuredH="27" zOrder="38" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Comments</text>
+      </controlProperties>
+    </control>
+    <control controlID="103" controlTypeID="com.balsamiq.mockups::HRule" x="479" y="678" w="408" h="-1" measuredW="100" measuredH="10" zOrder="39" locked="false" isInGroup="-1"/>
+    <control controlID="104" controlTypeID="com.balsamiq.mockups::Button" x="814" y="150" w="73" h="27" measuredW="48" measuredH="27" zOrder="40" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Fork</text>
       </controlProperties>
     </control>
   </controls>

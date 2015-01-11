@@ -45,7 +45,7 @@ Demo
 ----
 You can see the status of the project here in the [demo](http://fuse.rajanjamu.com/)
 
-Mockups
+Wireframes - Version1
 -------
 ![main](/mockups/PNG/main.png)
 ![repository](/mockups/PNG/repository.png)
