@@ -47,4 +47,6 @@ You can see the status of the project here in the [demo](http://fuse.rajanjamu.c
 
 Mockups
 -------
-![rajan](/mockups/PNG/main.png)
+![main](/mockups/PNG/main.png)
+![repository](/mockups/PNG/repository.png)
+![portfolio](/mockups/PNG/portfolio.png)
