@@ -44,3 +44,7 @@ This project is in nascent stages. It would be great to get your feedback and bu
 Demo
 ----
 You can see the status of the project here in the [demo](http://fuse.rajanjamu.com/)
+
+Mockups
+-------
+![rajan](/app/images/mockups/v1.png)
