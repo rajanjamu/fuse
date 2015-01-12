@@ -9,7 +9,7 @@
               <div class="thumbnail">
                 <%= image_tag("thumbnail.svg") %>
                 <div class="caption">
-                  <h3><%= creation.name %></h3>
+                  <h3><%= link_to creation.name, creation %></h3>
                   <p><%= creation.description %></p>
                   <p>
                     <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
@@ -23,14 +23,10 @@
             </div>
           <% end %>
 
-          
-
-
-
         </div>
       </div>
       <div class="col-sm-3">
-        <%= render 'layouts/sidebar' %>
+        <%= render partial: 'layouts/sidebar', locals: { creations: @creations, users: @users } %>
       </div>
     </div>
   </div>

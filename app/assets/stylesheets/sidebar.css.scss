@@ -1,6 +1,9 @@
 aside {
   .panel.panel-default {
     border: 0;
+    box-shadow: none;
+    margin-bottom: 30px;
+
     .panel-heading {
       background: none;
       font-weight: bold;
