@@ -41,12 +41,22 @@ Get involved
 This project is in nascent stages. It would be great to get your feedback and build this application together.
 
 
-Demo
-----
-You can see the status of the project here in the [demo](http://fuse.rajanjamu.com/)
-
 Wireframes - Version1
--------
+---------------------
 ![main](/mockups/PNG/main.png)
 ![repository](/mockups/PNG/repository.png)
 ![portfolio](/mockups/PNG/portfolio.png)
+
+
+Database Design
+---------------
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+
+Demo
+----
+You can see the status of the project here in the [demo](http://fuse.rajanjamu.com/)
