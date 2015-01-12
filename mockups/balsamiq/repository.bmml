@@ -163,37 +163,37 @@
         <text>%20%0ADescription%0A------------------------%0AThis%20tiny%20audio%20amplifier%20is%20based%20on%20the%20Texas%20Instruments%20TPA2005D1.%20Its%20efficient%20class-D%20operation%20means%20low%20heat%20and%20long%20battery%20life.%20It%20can%20drive%20an%208-Ohm%20speaker%20at%20up%20to%201.4%20Watts%3B%20it%20won%u2019t%20shake%20a%20stadium%2C%20but%20it%20will%20provide%20plenty%20of%20volume%20for%20your%20audio%20projects.%0A%20%0AFeatures%0A-------------------%0A-%20Extremely%20efficient%20class-D%20amplifier%0A-%201.4W%20into%208%20Ohms%0A-%202.5V%20to%205.5V%20supply%0A-%20Fully%20differential%20audio%20inputs%2C%20can%20be%20ground-referenced%20as%20well%0A-%20Shutdown%20input%20with%20pullup%20and%20LED-follows-shutdown%20circuitry</text>
       </controlProperties>
     </control>
-    <control controlID="98" controlTypeID="com.balsamiq.mockups::ButtonBar" x="76" y="559" w="340" h="46" measuredW="212" measuredH="27" zOrder="34" locked="false" isInGroup="-1">
-      <controlProperties>
-        <selectedIndex>-1</selectedIndex>
-        <text>Guide%2C%20Schematic%2C%20Gerber</text>
-      </controlProperties>
-    </control>
-    <control controlID="99" controlTypeID="com.balsamiq.mockups::Icon" x="675" y="193" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="35" locked="false" isInGroup="-1">
+    <control controlID="99" controlTypeID="com.balsamiq.mockups::Icon" x="675" y="193" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="34" locked="false" isInGroup="-1">
       <controlProperties>
         <icon>HandOpenIcon%7Csmall</icon>
       </controlProperties>
     </control>
-    <control controlID="100" controlTypeID="com.balsamiq.mockups::Label" x="706" y="189" w="34" h="-1" measuredW="30" measuredH="32" zOrder="36" locked="false" isInGroup="-1">
+    <control controlID="100" controlTypeID="com.balsamiq.mockups::Label" x="706" y="189" w="34" h="-1" measuredW="30" measuredH="32" zOrder="35" locked="false" isInGroup="-1">
       <controlProperties>
         <size>24</size>
         <text>23</text>
       </controlProperties>
     </control>
-    <control controlID="101" controlTypeID="com.balsamiq.mockups::SubTitle" x="543" y="150" w="-1" h="-1" measuredW="188" measuredH="27" zOrder="37" locked="false" isInGroup="-1">
+    <control controlID="101" controlTypeID="com.balsamiq.mockups::SubTitle" x="543" y="150" w="-1" h="-1" measuredW="188" measuredH="27" zOrder="36" locked="false" isInGroup="-1">
       <controlProperties>
         <text>%20/%20Audio%20Amplifier</text>
       </controlProperties>
     </control>
-    <control controlID="102" controlTypeID="com.balsamiq.mockups::SubTitle" x="479" y="645" w="-1" h="-1" measuredW="118" measuredH="27" zOrder="38" locked="false" isInGroup="-1">
+    <control controlID="102" controlTypeID="com.balsamiq.mockups::SubTitle" x="479" y="645" w="-1" h="-1" measuredW="118" measuredH="27" zOrder="37" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Comments</text>
       </controlProperties>
     </control>
-    <control controlID="103" controlTypeID="com.balsamiq.mockups::HRule" x="479" y="678" w="408" h="-1" measuredW="100" measuredH="10" zOrder="39" locked="false" isInGroup="-1"/>
-    <control controlID="104" controlTypeID="com.balsamiq.mockups::Button" x="814" y="150" w="73" h="27" measuredW="48" measuredH="27" zOrder="40" locked="false" isInGroup="-1">
+    <control controlID="103" controlTypeID="com.balsamiq.mockups::HRule" x="479" y="678" w="408" h="-1" measuredW="100" measuredH="10" zOrder="38" locked="false" isInGroup="-1"/>
+    <control controlID="104" controlTypeID="com.balsamiq.mockups::Button" x="814" y="150" w="73" h="27" measuredW="48" measuredH="27" zOrder="39" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Fork</text>
+      </controlProperties>
+    </control>
+    <control controlID="105" controlTypeID="com.balsamiq.mockups::Button" x="77" y="559" w="339" h="40" measuredW="155" measuredH="27" zOrder="40" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Design%20Files%20-%20Github</text>
       </controlProperties>
     </control>
   </controls>
