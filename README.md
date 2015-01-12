@@ -56,7 +56,7 @@ Features
   * Users can like any creation (once logged in)
   * Users can comment on any creation (once logged in)
   * Users can follow other users and also be followed (once logged in)
-  * Design files would be maintained on Github
+  * Design files would be maintained on Github. Users will have to push the files there
 
 
 Database Design
