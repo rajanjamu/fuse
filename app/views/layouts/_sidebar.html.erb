@@ -4,7 +4,10 @@
     <div class="panel-body">
       <div class="list-group">
         <% @creations.each do |creation| %>
-          <a href="#" class="list-group-item"><%= creation.name %><span class="badge">4</span></a>
+          <%= link_to creation, class: "list-group-item" do %>
+            <%= creation.name %>
+            <%= content_tag(:span, "4", class: "badge") %>
+          <% end %>
         <% end %>
       </div>
     </div>
@@ -15,7 +18,10 @@
     <div class="panel-body">
       <div class="list-group">
         <% @users.each do |user| %>
-          <a href="#" class="list-group-item"><%= user.name %><span class="badge">4</span></a>
+          <%= link_to user, class: "list-group-item" do %>
+            <%= user.name %>
+            <%= content_tag(:span, "4", class: "badge") %>
+          <% end %>
         <% end %>
       </div>
     </div>
