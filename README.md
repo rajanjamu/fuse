@@ -48,6 +48,17 @@ Wireframes - Version1
 ![portfolio](/mockups/PNG/portfolio.png)
 
 
+Features
+--------
+  * Register / login functionality
+  * Users can create / edit / delete their own creations
+  * Users can explore creations even without logging in
+  * Users can like any creation (once logged in)
+  * Users can comment on any creation (once logged in)
+  * Users can follow other users and also be followed (once logged in)
+  * Design files would be maintained on Github
+
+
 Database Design
 ---------------
 | User          | Creation      |

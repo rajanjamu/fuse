@@ -185,10 +185,14 @@
       </controlProperties>
     </control>
     <control controlID="103" controlTypeID="com.balsamiq.mockups::HRule" x="479" y="678" w="408" h="-1" measuredW="100" measuredH="10" zOrder="38" locked="false" isInGroup="-1"/>
-    <control controlID="105" controlTypeID="com.balsamiq.mockups::Button" x="77" y="559" w="339" h="40" measuredW="155" measuredH="27" zOrder="39" locked="false" isInGroup="-1">
+    <control controlID="108" controlTypeID="com.balsamiq.mockups::Button" x="76" y="558" w="177" h="40" measuredW="84" measuredH="27" zOrder="39" locked="false" isInGroup="-1">
       <controlProperties>
-        <size>14</size>
-        <text>Design%20Files%20-%20Github</text>
+        <text>Schematic</text>
+      </controlProperties>
+    </control>
+    <control controlID="109" controlTypeID="com.balsamiq.mockups::Button" x="253" y="559" w="163" h="39" measuredW="56" measuredH="27" zOrder="40" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Board</text>
       </controlProperties>
     </control>
   </controls>
