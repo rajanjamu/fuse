@@ -51,7 +51,7 @@ Wireframes - Version1
 Database Design
 ---------------
 | User          | Creation      |
-| ------------- |:-------------:|
+| ------------- | ------------- |
 | name          | user_id       |
 | username      | name          |
 | Email         | description   |
