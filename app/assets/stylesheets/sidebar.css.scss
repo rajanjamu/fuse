@@ -1,0 +1,27 @@
+aside {
+  .panel.panel-default {
+    border: 0;
+    .panel-heading {
+      background: none;
+      font-weight: bold;
+    }
+
+    .panel-body {
+      padding: 0;
+
+      .list-group {
+        margin: 0;
+
+        .list-group-item {
+          border-radius: 0;
+          border: 0;
+          // border-top: 1px solid #ddd;
+
+          &:first-child {
+            border: 0;
+          }
+        }
+      }
+    }
+  }
+}

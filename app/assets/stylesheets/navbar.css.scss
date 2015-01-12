@@ -1,0 +1,27 @@
+nav {
+  &.navbar.navbar-default {
+    min-height: 40px;
+    border-radius: 0;
+
+    .navbar-header {
+      .navbar-brand {
+        padding-top: 9px;
+        padding-bottom: 9px;
+        height: 42px;
+      }
+    }
+
+    .nav.navbar-nav {
+      li {
+        a {
+          padding-bottom: 11px;
+          padding-top: 11px;
+
+          .glyphicon {
+            padding-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}
