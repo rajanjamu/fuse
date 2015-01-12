@@ -165,6 +165,7 @@
     </control>
     <control controlID="98" controlTypeID="com.balsamiq.mockups::ButtonBar" x="76" y="559" w="340" h="46" measuredW="212" measuredH="27" zOrder="34" locked="false" isInGroup="-1">
       <controlProperties>
+        <selectedIndex>-1</selectedIndex>
         <text>Guide%2C%20Schematic%2C%20Gerber</text>
       </controlProperties>
     </control>
