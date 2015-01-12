@@ -52,9 +52,16 @@ Database Design
 ---------------
 | User          | Creation      |
 | ------------- | ------------- |
-| name          | user_id       |
-| username      | name          |
-| Email         | description   |
+| Name          | Name          |
+| Username      | User_id       |
+| Email         | Description   |
+| Joined_date   | Github        |
+| Country       | Likes         |
+| Image         | Forks         |
+| Pass_dig      | Images        |
+| Rem_dig       | Comments      |
+| Act_dig       | Tests         |
+|               | Category      |
 
 
 Demo
