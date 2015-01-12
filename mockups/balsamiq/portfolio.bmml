@@ -52,10 +52,10 @@
         <text>56</text>
       </controlProperties>
     </control>
-    <control controlID="72" controlTypeID="com.balsamiq.mockups::Label" x="961" y="160" w="-1" h="-1" measuredW="164" measuredH="26" zOrder="11" locked="false" isInGroup="-1">
+    <control controlID="72" controlTypeID="com.balsamiq.mockups::Label" x="961" y="160" w="-1" h="-1" measuredW="108" measuredH="26" zOrder="11" locked="false" isInGroup="-1">
       <controlProperties>
         <size>18</size>
-        <text>Top%20Trending%20Works</text>
+        <text>Top%20Trending</text>
       </controlProperties>
     </control>
     <control controlID="73" controlTypeID="com.balsamiq.mockups::HRule" x="961" y="191" w="243" h="-1" measuredW="100" measuredH="10" zOrder="12" locked="false" isInGroup="-1"/>
@@ -356,7 +356,7 @@
         <icon>ContactsIcon%7Csmall</icon>
       </controlProperties>
     </control>
-    <control controlID="155" controlTypeID="com.balsamiq.mockups::Button" x="169" y="610" w="192" h="27" measuredW="58" measuredH="27" zOrder="71" locked="false" isInGroup="-1">
+    <control controlID="155" controlTypeID="com.balsamiq.mockups::Button" x="169" y="596" w="192" h="41" measuredW="58" measuredH="27" zOrder="71" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Follow</text>
       </controlProperties>
@@ -439,6 +439,11 @@
     <control controlID="172" controlTypeID="com.balsamiq.mockups::Label" x="825" y="649" w="-1" h="-1" measuredW="10" measuredH="21" zOrder="87" locked="false" isInGroup="-1">
       <controlProperties>
         <text>2</text>
+      </controlProperties>
+    </control>
+    <control controlID="173" controlTypeID="com.balsamiq.mockups::Label" x="137" y="88" w="-1" h="-1" measuredW="140" measuredH="21" zOrder="88" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>behance%20for%20electronics</text>
       </controlProperties>
     </control>
   </controls>

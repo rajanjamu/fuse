@@ -195,5 +195,10 @@
         <text>Board</text>
       </controlProperties>
     </control>
+    <control controlID="110" controlTypeID="com.balsamiq.mockups::Label" x="137" y="88" w="-1" h="-1" measuredW="140" measuredH="21" zOrder="41" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>behance%20for%20electronics</text>
+      </controlProperties>
+    </control>
   </controls>
 </mockup>

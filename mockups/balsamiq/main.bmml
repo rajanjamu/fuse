@@ -270,10 +270,10 @@
         <text>By%3A%20Sparkfun</text>
       </controlProperties>
     </control>
-    <control controlID="72" controlTypeID="com.balsamiq.mockups::Label" x="961" y="160" w="-1" h="-1" measuredW="164" measuredH="26" zOrder="60" locked="false" isInGroup="-1">
+    <control controlID="72" controlTypeID="com.balsamiq.mockups::Label" x="961" y="160" w="-1" h="-1" measuredW="108" measuredH="26" zOrder="60" locked="false" isInGroup="-1">
       <controlProperties>
         <size>18</size>
-        <text>Top%20Trending%20Works</text>
+        <text>Top%20Trending</text>
       </controlProperties>
     </control>
     <control controlID="73" controlTypeID="com.balsamiq.mockups::HRule" x="961" y="191" w="243" h="-1" measuredW="100" measuredH="10" zOrder="61" locked="false" isInGroup="-1"/>
@@ -361,6 +361,11 @@
       <controlProperties>
         <size>16</size>
         <text>Development%20Tools%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%2012</text>
+      </controlProperties>
+    </control>
+    <control controlID="91" controlTypeID="com.balsamiq.mockups::Label" x="137" y="88" w="-1" h="-1" measuredW="140" measuredH="21" zOrder="78" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>behance%20for%20electronics</text>
       </controlProperties>
     </control>
   </controls>
