@@ -61,4 +61,4 @@ Features
 
 Demo
 ----
-You can see the status of the project here in the [demo](http://fuse.rajanjamu.com/)
+You can see the status of the project here in the [demo](http://fusy.herokuapp.com/)
