@@ -6,6 +6,13 @@
       .glyphicon {
         margin-right: 10px;
       }
+
+      .email {
+        white-space: nowrap; 
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
     }
   }
 

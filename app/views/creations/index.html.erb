@@ -5,7 +5,9 @@
         <div class="row">
 
           <% @creations.each do |creation| %>
-            <%= render partial: 'creations/creation_box', locals: { creation: creation } %>
+            <div class="col-sm-6 col-md-4 creation">
+              <%= render partial: 'creations/creation_box', locals: { creation: creation } %>
+            </div>
           <% end %>
 
         </div>

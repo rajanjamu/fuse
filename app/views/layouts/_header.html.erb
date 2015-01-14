@@ -27,11 +27,11 @@
             <span class="caret"></span>
           </a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Create</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>Profile</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span>Setting</a></li>
+            <li><%= link_to content_tag(:span, "", class: "glyphicon glyphicon-plus") + "Create", new_creation_path %></li>
+            <li><%= link_to content_tag(:span, "", class: "glyphicon glyphicon-folder-open") + "Profile", new_creation_path %></li>
+            <li><%= link_to content_tag(:span, "", class: "glyphicon glyphicon-cog") + "Settings", new_creation_path %></li>
             <li class="divider"></li>
-            <li><a href="#"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>Logout</a></li>
+            <li><%= link_to content_tag(:span, "", class: "glyphicon glyphicon-log-out") + "Logout", new_creation_path %></li>
           </ul>
         </li>
       </ul>

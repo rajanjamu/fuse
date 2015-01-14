@@ -6,6 +6,10 @@ class CreationsController < ApplicationController
   end
 
   def new
+    @creations = Creation.all
+    @users = User.all
+    @categories = Category.all
+    @creation = Creation.new
   end
 
   def edit
