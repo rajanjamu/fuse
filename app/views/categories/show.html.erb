@@ -1,2 +1,21 @@
-<h1>Categories#show</h1>
-<p>Find me in app/views/categories/show.html.erb</p>
+<div id="category">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-9">
+        <h3>Category / <%= @category.name %></h3>
+        <div class="row">
+
+          <% @category.creations.each do |creation| %>
+            <div class="col-sm-6 col-md-4 creation">
+              <%= render partial: 'creations/creation_box', locals: { creation: creation } %>
+            </div>
+          <% end %>
+
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <%= render partial: 'layouts/sidebar', locals: { creations: @creations, users: @users } %>
+      </div>
+    </div>
+  </div>
+</div>
