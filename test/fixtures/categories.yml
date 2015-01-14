@@ -1,11 +1,9 @@
 # == Schema Information
 #
-# Table name: users
+# Table name: categories
 #
 #  id         :integer          not null, primary key
 #  name       :string
-#  username   :string
-#  email      :string
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
@@ -14,10 +12,6 @@
 
 one:
   name: MyString
-  username: MyString
-  email: MyString
 
 two:
   name: MyString
-  username: MyString
-  email: MyString

@@ -3,17 +3,37 @@
     <div class="row">
       <div class="col-sm-9">
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-offset-1 col-md-3 user-info">
             <div class="thumbnail">
               <%= image_tag("thumbnail.svg") %>
             </div>
             <h1><%= @user.name %></h1>
             <h4><%= @user.username %></h4>
+
+            <hr/>
+            <div class="info">
+              <p>
+                <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+                India
+              </p>
+              <p>
+                <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                <%= @user.email %>
+              </p>
+              <p>
+                <span class="glyphicon glyphicon-dashboard" aria-hidden="true"></span>
+                Joined <%= @user.created_at.in_time_zone('Chennai').strftime("%d %b %Y") %>
+              </p>
+            </div>
+
+            <div class="credits">
+
+            </div>
           </div>
-          <div class="col-md-8 col-md-offset-1">
-            
-
-
+          <div class="col-md-8">
+            <% @user.creations.each do |creation| %>
+              <%= render partial: 'creations/creation_box', locals: { creation: creation } %>
+            <% end %>
           </div>
         </div>
       </div>

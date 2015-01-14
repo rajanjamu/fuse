@@ -9,8 +9,25 @@
             </div>
           </div>
           <div class="col-md-8">
-            <h3><%= @creation.user.name %> / <%= @creation.name %></h3>
-            <p><%= @creation.description %></p>
+            <h3 class="header">
+              <%= link_to @creation.user.name, @creation.user %> / <%= @creation.name %>
+              <span class="category"><%= link_to @creation.category.name, @creation.category %></span>
+            </h3>
+            <p class="credits">
+              <span class="like">
+                <%= link_to content_tag(:span, " 104", class: "glyphicon glyphicon-thumbs-up"), "#" %>
+                <!-- <span class="badge">104</span> -->
+              </span>
+              <span class="comment">
+                <%= link_to content_tag(:span, " 56", class: "glyphicon glyphicon-comment"), "#" %>
+                <!-- <span class="badge">56</span> -->
+              </span>
+              <span class="download">
+                <%= link_to content_tag(:span, " 13", class: "glyphicon glyphicon-download"), "#" %>
+                <!-- <span class="badge">13</span> -->
+              </span>
+            </p>
+            <p class="description"><%= @creation.description %></p>
           </div>
         </div>
       </div>

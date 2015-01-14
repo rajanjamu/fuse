@@ -1,3 +1,16 @@
+# == Schema Information
+#
+# Table name: creations
+#
+#  id          :integer          not null, primary key
+#  name        :string
+#  created_at  :datetime         not null
+#  updated_at  :datetime         not null
+#  description :text
+#  user_id     :integer
+#  category_id :integer
+#
+
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:

@@ -1,11 +1,5 @@
 Rails.application.routes.draw do
 
-  get 'creations/index'
-
-  get 'creations/new'
-
-  get 'creations/edit'
-
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -13,6 +7,7 @@ Rails.application.routes.draw do
   root 'creations#index'
   resources :users
   resources :creations
+  resources :categories
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

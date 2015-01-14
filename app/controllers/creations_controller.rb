@@ -2,6 +2,7 @@ class CreationsController < ApplicationController
   def index
     @creations = Creation.all
     @users = User.all
+    @categories = Category.all
   end
 
   def new
@@ -13,6 +14,7 @@ class CreationsController < ApplicationController
   def show
     @creations = Creation.all
     @users = User.all
+    @categories = Category.all
     @creation = Creation.find(params[:id])
   end
 

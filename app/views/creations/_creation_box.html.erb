@@ -1,0 +1,16 @@
+<div class="col-sm-6 col-md-4 creation">
+  <div class="thumbnail">
+    <%= image_tag("thumbnail.svg") %>
+    <div class="caption">
+      <h3><%= link_to creation.name, creation %></h3>
+      <p><%= creation.description.split(".").first %></p>
+      <p>
+        <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+        <span class="badge">4</span>
+        <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
+        <span class="badge">4</span>
+        <span class="creator">By: <%= link_to creation.user.name, creation.user %></span>
+      </p>
+    </div>
+  </div>
+</div>

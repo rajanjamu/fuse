@@ -1,0 +1,58 @@
+#user {
+  .user-info {
+    .info {
+      margin-top: 10px;
+
+      .glyphicon {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .creation {
+    .thumbnail {
+      .caption {
+        padding-bottom: 0;
+        font-size: 0.9em;
+
+        p:first-child {
+          background: #999;
+        }
+
+        .glyphicon {
+          // padding-right: 2px;
+          padding-left: 10px;
+          color: #aaa;
+          // font-size: 1.2em;
+
+          &:first-child {
+            padding-left: 0;
+          }
+        }
+
+        .badge {
+          background: #fff;
+          color: #777;
+
+        }
+
+        .creator {
+          float: right;
+          color: #aaa;
+          font-size: 0.9em;
+
+          a {
+            &:visited, &:link {
+              text-decoration: none;
+              color: #aaa;
+            }
+
+            &:hover {
+              color: #000;
+            }
+          }
+        }
+      }
+    }
+  }
+}

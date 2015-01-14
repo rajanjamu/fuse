@@ -31,10 +31,12 @@
     <div class="panel-heading">Top Categories</div>
     <div class="panel-body">
       <div class="list-group">
-        <a href="#" class="list-group-item">Dapibus ac facilisis in<span class="badge">4</span></a>
-        <a href="#" class="list-group-item">Morbi leo risus<span class="badge">4</span></a>
-        <a href="#" class="list-group-item">Porta ac consectetur ac<span class="badge">4</span></a>
-        <a href="#" class="list-group-item">Vestibulum at eros<span class="badge">4</span></a>
+        <% @categories.each do |category| %>
+          <%= link_to category, class: "list-group-item" do %>
+            <%= category.name %>
+            <%= content_tag(:span, "4", class: "badge") %>
+          <% end %>
+        <% end %>
       </div>
     </div>
   </div>

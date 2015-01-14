@@ -18,6 +18,7 @@ class UsersController < ApplicationController
   def show
     @creations = Creation.all
     @users = User.all
+    @categories = Category.all
     @user = User.find(params[:id])
   end
 
