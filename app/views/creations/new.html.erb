@@ -4,7 +4,13 @@
       <div class="col-sm-9">
         <div class="row">
           <div class="col-sm-8 col-sm-offset-2">
-            <h1>Rajan</h1>
+            <%= simple_form_for @creation do |f| %>
+              <%= f.input :name %>
+              <%= f.input :description %>
+              <%= f.input :category_id, collection: @category_names %>
+              <%= f.input :user_id, collection: @user_names %>
+              <%= f.button :submit %>
+            <% end %>
           </div>
         </div>
       </div>
