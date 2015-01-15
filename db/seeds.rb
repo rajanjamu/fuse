@@ -38,6 +38,6 @@ create_creation("Real Time Clock", description2, 1, 2)
 create_creation("Pressure Sensor", description3, 1, 1)
 create_creation("Mems Microphone", description4, 2, 2)
 create_creation("IMU", description5, 2, 1)
-create_creation("Motor Driver", description6, 3, 1)
+create_creation("Motor Driver", description6, 3, 3)
 
 
