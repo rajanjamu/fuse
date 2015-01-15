@@ -15,6 +15,7 @@ gem 'autoprefixer-rails'
 gem 'simple_form'
 gem 'carrierwave'
 gem 'cloudinary'
+gem 'devise'
 
 group :development, :test do
   gem 'sqlite3'
