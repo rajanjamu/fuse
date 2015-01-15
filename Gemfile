@@ -13,6 +13,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 gem 'simple_form'
+gem 'carrierwave'
+gem 'cloudinary'
 
 group :development, :test do
   gem 'sqlite3'
