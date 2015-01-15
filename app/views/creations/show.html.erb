@@ -12,6 +12,7 @@
             <h3 class="header">
               <%= link_to @creation.user.name, @creation.user %> / <%= @creation.name %>
               <span class="category"><%= link_to @creation.category.name, @creation.category %></span>
+              <%= link_to content_tag(:span, "", class: "glyphicon glyphicon-trash"), creation_path, method: :delete, data: { confirm: "Are you sure?" }, class: "delete-icon" %>
             </h3>
             <p class="credits">
               <span class="like">

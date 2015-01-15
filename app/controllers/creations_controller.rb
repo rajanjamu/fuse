@@ -35,6 +35,11 @@ class CreationsController < ApplicationController
     @creation = Creation.find(params[:id])
   end
 
+  def destroy
+    Creation.find(params[:id]).destroy
+    redirect_to root_url
+  end
+
   private
     def creation_params
       params.require(:creation).permit(:name, :description)
