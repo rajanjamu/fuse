@@ -3,12 +3,42 @@
     <div class="row">
       <div class="col-sm-9">
         <div class="row">
-          <div class="col-md-4">
-            <div class="thumbnail">
-              <%= image_tag("thumbnail.svg") %>
+          <div class="col-md-5">
+            <div class="row">
+              <div class="thumbnail">
+                <%= image_tag("thumbnail.svg") %>
+              </div>
             </div>
+            <div class="row more-images">
+              <div class="col-md-4 image">
+                <div class="thumbnail">
+                  <%= image_tag("thumbnail.svg") %>
+                </div>
+              </div>
+              <div class="col-md-4 image">
+                <div class="thumbnail">
+                  <%= image_tag("thumbnail.svg") %>
+                </div>
+              </div>
+              <div class="col-md-4 image">
+                <div class="thumbnail">
+                  <%= image_tag("thumbnail.svg") %>
+                </div>
+              </div>
+            </div>
+            <h4>Downloads</h4>
+            <hr/>
+            <div class="row buttons">
+              <div class="col-md-6 button">
+                <button type="button" class="btn btn-primary">Schematic</button>
+              </div>
+              <div class="col-md-6 button">
+                <button type="button" class="btn btn-primary">Board</button>
+              </div>
+            </div>
+            <hr/>
           </div>
-          <div class="col-md-8">
+          <div class="col-md-7 content">
             <h3 class="header">
               <%= link_to @creation.user.name, @creation.user %> / <%= @creation.name %>
               <span class="category"><%= link_to @creation.category.name, @creation.category %></span>
